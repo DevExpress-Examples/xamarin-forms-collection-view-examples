@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="DevExpress.XamarinForms.CollectionView" Version="20.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.XamarinForms.Core">
+      <HintPath>..\..\..\Downloads\DevExpress-2.Xamarin\Binaries\DevExpress.XamarinForms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.CollectionView">
+      <HintPath>..\..\..\Downloads\DevExpress-2.Xamarin\Binaries\DevExpress.XamarinForms.CollectionView.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.CollectionView">
+      <HintPath>..\..\..\Downloads\DevExpress.Xamarin 2\Binaries\DevExpress.XamarinForms.CollectionView.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Core">
+      <HintPath>..\..\..\Downloads\DevExpress.Xamarin 2\Binaries\DevExpress.XamarinForms.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
