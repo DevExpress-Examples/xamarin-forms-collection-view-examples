@@ -1,7 +1,6 @@
-Exmples list:
+Examples:
 
-[01 - Load More](./CS/LoadMore)
-
-[02 - Pull To Refresh](./CS/PullToRefresh)
-
-[03 - Selection](./CS/Selection)
+[Getting Started](./CS/GettingStarted)
+[Load More](./CS/LoadMore)
+[Pull To Refresh](./CS/PullToRefresh)
+[Selection](./CS/Selection)
