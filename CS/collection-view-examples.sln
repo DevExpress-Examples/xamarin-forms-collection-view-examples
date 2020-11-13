@@ -2,23 +2,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionView_LoadMore", "01-LoadMore\CollectionView_LoadMore\CollectionView_LoadMore.csproj", "{2C1720F7-841B-4686-8E72-DCD73FB8C3C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionView_LoadMore", "LoadMore\CollectionView_LoadMore\CollectionView_LoadMore.csproj", "{2C1720F7-841B-4686-8E72-DCD73FB8C3C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_LoadMore.iOS", "01-LoadMore\CollectionView_LoadMore.iOS\CollectionView_LoadMore.iOS.csproj", "{02BB49FC-87D4-4E32-90CE-2C36F5EB179E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_LoadMore.iOS", "LoadMore\CollectionView_LoadMore.iOS\CollectionView_LoadMore.iOS.csproj", "{02BB49FC-87D4-4E32-90CE-2C36F5EB179E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_LoadMore.Android", "01-LoadMore\CollectionView_LoadMore.Android\CollectionView_LoadMore.Android.csproj", "{79860295-3186-4871-8F76-A2DB41AC2B96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_LoadMore.Android", "LoadMore\CollectionView_LoadMore.Android\CollectionView_LoadMore.Android.csproj", "{79860295-3186-4871-8F76-A2DB41AC2B96}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionView_PullToRefresh", "02-PullToRefresh\CollectionView_PullToRefresh\CollectionView_PullToRefresh.csproj", "{B65F505B-CF2B-4663-9A73-D8E1759799B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionView_PullToRefresh", "PullToRefresh\CollectionView_PullToRefresh\CollectionView_PullToRefresh.csproj", "{B65F505B-CF2B-4663-9A73-D8E1759799B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_PullToRefresh.Android", "02-PullToRefresh\CollectionView_PullToRefresh.Android\CollectionView_PullToRefresh.Android.csproj", "{DE4BC71E-266D-4231-876B-047C4779F704}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_PullToRefresh.Android", "PullToRefresh\CollectionView_PullToRefresh.Android\CollectionView_PullToRefresh.Android.csproj", "{DE4BC71E-266D-4231-876B-047C4779F704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_PullToRefresh.iOS", "02-PullToRefresh\CollectionView_PullToRefresh.iOS\CollectionView_PullToRefresh.iOS.csproj", "{CDA6383D-51CF-40B3-895E-906ECAB73664}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_PullToRefresh.iOS", "PullToRefresh\CollectionView_PullToRefresh.iOS\CollectionView_PullToRefresh.iOS.csproj", "{CDA6383D-51CF-40B3-895E-906ECAB73664}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionView_Selection", "03-Selection\CollectionView_Selection\CollectionView_Selection.csproj", "{BC41DF58-3BDB-4D6B-B805-CA9D496DB437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionView_Selection", "Selection\CollectionView_Selection\CollectionView_Selection.csproj", "{BC41DF58-3BDB-4D6B-B805-CA9D496DB437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_Selection.Android", "03-Selection\CollectionView_Selection.Android\CollectionView_Selection.Android.csproj", "{61171DF2-D7B3-4EED-8564-D48F8D7ADAAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_Selection.Android", "Selection\CollectionView_Selection.Android\CollectionView_Selection.Android.csproj", "{61171DF2-D7B3-4EED-8564-D48F8D7ADAAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_Selection.iOS", "03-Selection\CollectionView_Selection.iOS\CollectionView_Selection.iOS.csproj", "{617FBD8B-9494-45AD-BB21-2AF09F9E31A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionView_Selection.iOS", "Selection\CollectionView_Selection.iOS\CollectionView_Selection.iOS.csproj", "{617FBD8B-9494-45AD-BB21-2AF09F9E31A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
