@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79860295-3186-4871-8F76-A2DB41AC2B96}</ProjectGuid>
+    <ProjectGuid>{DE4BC71E-266D-4231-876B-047C4779F704}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>CollectionView_LoadMore.Droid</RootNamespace>
-    <AssemblyName>CollectionView_LoadMore.Android</AssemblyName>
+    <RootNamespace>CollectionView_PullToRefresh.Droid</RootNamespace>
+    <AssemblyName>CollectionView_PullToRefresh.Android</AssemblyName>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -91,9 +91,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CollectionView_LoadMore\CollectionView_LoadMore.csproj">
-      <Project>{773F8EDE-8E46-4306-9123-FE602F24525E}</Project>
-      <Name>CollectionView_LoadMore</Name>
+    <ProjectReference Include="..\CollectionView_PullToRefresh\CollectionView_PullToRefresh.csproj">
+      <Project>{DD12E0A6-6709-4F4A-B722-1E75EFA771B4}</Project>
+      <Name>CollectionView_PullToRefresh</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

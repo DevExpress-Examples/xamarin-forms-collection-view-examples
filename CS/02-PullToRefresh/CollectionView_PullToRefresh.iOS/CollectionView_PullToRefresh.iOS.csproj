@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{02BB49FC-87D4-4E32-90CE-2C36F5EB179E}</ProjectGuid>
+    <ProjectGuid>{CDA6383D-51CF-40B3-895E-906ECAB73664}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CollectionView_LoadMore.iOS</RootNamespace>
+    <RootNamespace>CollectionView_PullToRefresh.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>CollectionView_LoadMore.iOS</AssemblyName>
+    <AssemblyName>CollectionView_PullToRefresh.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -131,9 +131,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\CollectionView_LoadMore\CollectionView_LoadMore.csproj">
-      <Project>{773F8EDE-8E46-4306-9123-FE602F24525E}</Project>
-      <Name>CollectionView_LoadMore</Name>
+    <ProjectReference Include="..\CollectionView_PullToRefresh\CollectionView_PullToRefresh.csproj">
+      <Project>{DD12E0A6-6709-4F4A-B722-1E75EFA771B4}</Project>
+      <Name>CollectionView_PullToRefresh</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
