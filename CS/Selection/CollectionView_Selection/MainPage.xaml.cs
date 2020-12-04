@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
-namespace CollectionView_Selection
-{
-    public partial class MainPage : ContentPage
-    {
-        public MainPage()
-        {
+namespace CollectionView_Selection {
+    public partial class MainPage : ContentPage {
+        public MainPage() {
+            DevExpress.XamarinForms.CollectionView.Initializer.Init();
             InitializeComponent();
         }
     }

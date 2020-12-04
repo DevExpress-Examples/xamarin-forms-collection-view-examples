@@ -23,7 +23,7 @@ namespace CollectionView_LoadMore.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            DevExpress.XamarinForms.CollectionView.CollectionView.Init();
+            DevExpress.XamarinForms.CollectionView.iOS.Initializer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

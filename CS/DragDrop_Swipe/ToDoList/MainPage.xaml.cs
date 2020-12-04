@@ -8,6 +8,7 @@ namespace ToDoList {
         SwipeView openedSwipeView;
 
         public MainPage() {
+            DevExpress.XamarinForms.CollectionView.Initializer.Init();
             InitializeComponent();
             this.vm = new DragDropModel(new EmployeeTaskRepository());
             BindingContext = vm;
