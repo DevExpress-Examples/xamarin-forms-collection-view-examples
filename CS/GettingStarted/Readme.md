@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainPage.xaml](./CollectionViewExample/MainPage.xaml)
-* [PersonalInfo.cs](./CollectionViewExample/ViewModel.cs)
+* [ViewModel.cs](./CollectionViewExample/ViewModel.cs)
 <!-- default file list end -->
 # CollectionView - Getting Started
 
