@@ -3,7 +3,7 @@
 
 * [MailMessageRepository.cs](./CollectionView_LoadMore/MailMessageRepository.cs)
 * [ViewModel.cs](./CollectionView_LoadMore/ViewModel.cs)
-* [MainPage.xaml.cs](./DCollectionView_LoadMore/MainPage.xaml.cs)
+* [MainPage.xaml.cs](./CollectionView_LoadMore/MainPage.xaml.cs)
 * [MainPage.xaml](./CollectionView_LoadMore/MainPage.xaml)
 <!-- default file list end -->
 # Implement Load-More
@@ -13,6 +13,7 @@ In this example, the CollectionView displays a list of mail messages and loads a
 1. Set the [DXCollectionView.IsLoadMoreEnabled](https://docs.devexpress.com/MobileControls/DevExpress.XamarinForms.CollectionView.DXCollectionView.IsLoadMoreEnabled) property to **true** to enable the CollectionView's load-more functionality.  
 2. Create a command to be executed when a user scrolls to the bottom of the CollectionView to load more data items. Set the [DXCollectionView.IsRefreshing](https://docs.devexpress.com/MobileControls/DevExpress.XamarinForms.CollectionView.DXCollectionView.IsRefreshing) property to **false** after data is loaded to hide the loading indicator.  
 3. Bind the [DXCollectionView.LoadMoreCommand](https://docs.devexpress.com/MobileControls/DevExpress.XamarinForms.CollectionView.DXCollectionView.LoadMoreCommand) property to the created command.  
+For a complete description, refer to the following help topic: [Implement Load-More](https://docs.devexpress.com/MobileControls/402245/xamarin-forms/collection-view/examples/load-more).
 
 <img src="./img/collection-view-load-more.png"/>
 
