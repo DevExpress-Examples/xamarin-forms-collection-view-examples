@@ -57,10 +57,10 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.4.10</Version>
+      <Version>1.5.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CollectionView_Selection\CollectionView_Selection.csproj">
-      <Project>{82A59CEE-17B3-4448-A034-8ECDD98004AC}</Project>
+      <Project>{BC41DF58-3BDB-4D6B-B805-CA9D496DB437}</Project>
       <Name>CollectionView_Selection</Name>
     </ProjectReference>
   </ItemGroup>
