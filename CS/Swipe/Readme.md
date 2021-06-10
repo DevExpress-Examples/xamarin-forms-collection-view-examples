@@ -12,9 +12,9 @@ This example shows how to define the following two swipe actions for items of th
 - **Delete**  
 	When a user swipes an item from right to left, this button appears on the right side of the item and removes the task on tap.
 
-For a complete description, refer to the following help topic: [Define Swipe Actions for Items](https://docs.devexpress.com/MobileControls/403078/xamarin-forms/collection-view/examples/define-swipe-actions-for-items).
+<img src="./img/collection-view-swipe-actions.png"/>
 
-<img src="./img/collection-view-swipe-items.png"/>
+For a complete description, refer to the following help topic: [Define Swipe Actions for Items](https://docs.devexpress.com/MobileControls/403078/xamarin-forms/collection-view/examples/define-swipe-actions-for-items).
 
 To run the application:
 1. [Obtain your NuGet feed URL](http://docs.devexpress.com/GeneralInformation/116042/installation/install-devexpress-controls-using-nuget-packages/obtain-your-nuget-feed-url).
