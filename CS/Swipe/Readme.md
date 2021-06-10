@@ -4,7 +4,7 @@
 * [MainPage.xaml](./CollectionView_Swipe/MainPage.xaml)
 * [ViewModel.cs](./CollectionView_Swipe/ViewModel.cs)
 <!-- default file list end -->
-# Select Items
+# Define Swipe Actions for Items
 
 This example shows how to define the following two swipe actions for items of the vertical [CollectionView](https://docs.devexpress.com/MobileControls/DevExpress.XamarinForms.CollectionView.DXCollectionView) bound to the list of *tasks*: 
 - **Done/To Do**  
