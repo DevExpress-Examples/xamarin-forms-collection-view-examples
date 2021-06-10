@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="DevExpress.XamarinForms.CollectionView" Version="21.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.XamarinForms.CollectionView">
+      <HintPath>..\..\..\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.CollectionView.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Core">
+      <HintPath>..\..\..\DevExpress.Xamarin\Binaries\DevExpress.XamarinForms.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
